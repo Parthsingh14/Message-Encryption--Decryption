@@ -194,3 +194,51 @@ button img{
     display: none;
     margin-top: 40px;
 }
+
+@media (max-width: 1200px) {
+    #main {
+        padding: 80px 0;
+    }
+    #main #endec-div {
+        width: 40%;
+    }
+    #encryption, #decryption, #result {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #main {
+        padding: 60px 0;
+    }
+    #main>h1 {
+        font-size: 36px;
+    }
+    #main #endec-div {
+        width: 60%;
+    }
+    #encryption, #decryption, #result {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    #main {
+        padding: 40px 0;
+    }
+    #main>h1 {
+        font-size: 28px;
+    }
+    #main #endec-div {
+        width: 80%;
+        flex-direction: column;
+    }
+    #endec-div h3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #encryption, #decryption, #result {
+        width: 90%;
+    }
+}
